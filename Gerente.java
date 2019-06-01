@@ -1,3 +1,4 @@
+/**Esta clase será la encargada de hacer todos los cambios con respecto a os producto.*/
 import java.io.*;
 import java.util.StringTokenizer;
 import java.util.Scanner;
@@ -85,7 +86,7 @@ public class Gerente{
 	public String getContrasena(){
 		return this.contrasena;
 	}
-
+	/**Modofiaca el registro, el cual guarda todos los productos existentes */
 	private void actualizarRegistro(String nombre, int nuevo)throws IOException{
 		if (nuevo == 0){
 			FileWriter fw = new FileWriter("Registro.txt", true);

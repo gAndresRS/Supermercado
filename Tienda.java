@@ -24,7 +24,6 @@ public class Tienda {
                             String contrasenaIn = menu.contrasena();
                             System.out.println(contrasenaIn);
                             boolean resp = menu.comprobarContrasena(gerente.getContrasena(), contrasenaIn);
-                            //(resp)?(System.out.println("contrasena correcta")):(System.out.println("contrasena incorrecta"));
                             if (!resp){//Si la contraseña se ingreso mal
                                 System.out.println("¿Deseas ingresar intentar denuevo o salir al menu principla?");
                                 intento = menu.nuevoIntento();

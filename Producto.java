@@ -1,3 +1,5 @@
+/** Esta clase estara encargada de tener los atributos de los productos, asi como métodos que retornaran su valor. */
+
 import java.util.Scanner;
 
 public class Producto{
